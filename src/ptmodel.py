@@ -89,7 +89,6 @@ def train_epoch(model, device, train_loader, optimizer, epoch, retloss=False):
 def test(model, device, test_loader, retloss=False):
     model.eval()    # Set the model to inference mode
     test_loss = 0
-    correct = 0
     test_num = 0
     with torch.no_grad():   # For the inference step, gradient is not computed
         for batch_idx, data in enumerate(test_loader):
@@ -100,14 +99,9 @@ def test(model, device, test_loader, retloss=False):
             test_loss += F.mse_loss(output, target, reduction='sum').item()
             # get the index of the max log-probability
             pred = output.argmax(dim=1, keepdim=True)
-            correct += pred.eq(target.view_as(pred)).sum().item()
             test_num += len(data)
 
     test_loss /= test_num
-
-    print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
-        test_loss, correct, test_num,
-        100. * correct / test_num))
     if retloss:
         return(test_loss)
 
@@ -131,11 +125,27 @@ def gen_split(dataset,valper=.15,batchsize=50):
         sampler=SubsetRandomSampler(subset_indices_train)
     )
     val_loader = torch.utils.data.DataLoader(
-        train_dataset, batch_size=len(valinds),
+        train_dataset, batch_size=batchsize,
         sampler=SubsetRandomSampler(subset_indices_valid)
     )
     return(train_loader,val_loader)
 
+def dtype_norm(nparr,tname):
+    vallist=[]
+    flatdat = nparr.flatten()
+    globmin, globmax = np.min(flatdat), np.max(flatdat)
+    if (globmin !=0) & (globmax != 1):
+        for band in range(nparr.shape[1]):
+            banddata=nparr[:,band]
+            flatbd=banddata.flatten()
+            min, max = np.min(flatbd), np.max(flatbd)
+            nparr[:,band] = (banddata+abs(min))/(max+abs(min))
+            vallist.append((min,max))
+    else:
+        print(tname + ' Already Normalized!')
+        sys.exit()
+    normdict={tname:vallist}
+    return(nparr,normdict)
 
 class ICEsDataset(Dataset):
 
@@ -143,9 +153,19 @@ class ICEsDataset(Dataset):
         #DDR not yet implemented
         # self.ddr = datadict['DDR']
         self.ctx = np.array(datadict['CTX'])
-        self.crism = np.array(datadict['CRISM'])
-        self.coords = datadict['COORDS']
-        assert(len(self.ctx) == len(self.crism))
+        try:
+            self.coords = datadict['COORDS']
+            self.crism = np.array(datadict['CRISM'])
+            self.predflag=False
+        except KeyError:
+            self.predflag=True
+        try:
+            self.ddr = np.array(datadict['DDR'])
+            self.ddrflag=True
+        except IndexError:
+            self.ddrflag=False
+        if not self.predflag:
+            assert(len(self.ctx) == len(self.crism))
 
     def __len__(self):
         return len(self.ctx)
@@ -153,24 +173,21 @@ class ICEsDataset(Dataset):
     def __getitem__(self, idx):
         if torch.is_tensor(idx):
             idx = idx.tolist()
-
-        sample = {'X': self.ctx[idx], 'Y': self.crism[idx]}
+        if not self.predflag:
+            sample = {'X': self.ctx[idx], 'Y': self.crism[idx]}
+        else:
+            sample = {'X': self.ctx[idx]}
 
         return sample
-
-    def normalize(self):
-        flatcris = self.crism.flatten()
-        min, max = np.min(flatcris), np.max(flatcris)
-        if (min != 0) & (max != 1):
-                self.crism = (self.crism+abs(min))/(max+abs(min))
-        else:
-            print('CRISM Already Normalized!')
-            sys.exit()
-
-        flatctx = self.ctx.flatten()
-        min, max = np.min(flatctx), np.max(flatctx)
-        if (min != 0) & (max != 1):
-                self.ctx = (self.ctx+abs(min))/(max+abs(min))
-        else:
-            print('CTX Already Normalized!')
-            sys.exit()
+    def normalize(self,catddr=False):
+        retvals=[]
+        print(self.ctx.shape,self.crism.shape,self.ddr.shape)
+        self.ctx=self.ctx/255
+        if not self.predflag:
+            self.crism, self.crismnorm=dtype_norm(self.crism,'CRISM')
+        if self.ddrflag:
+            self.ddr,self.ddrnorm=dtype_norm(self.ddr,'DDR')
+        if catddr:
+            self.ctx=np.concatenate([self.ctx,self.ddr],axis=1)
+            print(self.ctx.shape)
+        print(self.ctx.shape,self.crism.shape,self.ddr.shape)

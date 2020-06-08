@@ -1,0 +1,1214 @@
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:06:44
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005773_0849_XN_84S045W_final.img
+    TO      = ../data/P12_005773_0849_XN_84S045W_final_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] not found in label"
+    File    = main.cpp
+    Line    = 71
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] does not exist in [Object = Root] in
+               file [../data/P12_005773_0849_XN_84S045W_final.img]"
+    File    = PvlContainer.cpp
+    Line    = 84
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:07:06
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005773_0849_XN_84S045W_final.img
+    TO      = ../data/P12_005773_0849_XN_84S045W_final_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] not found in label"
+    File    = main.cpp
+    Line    = 71
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] does not exist in [Object = Root] in
+               file [../data/P12_005773_0849_XN_84S045W_final.img]"
+    File    = PvlContainer.cpp
+    Line    = 84
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:07:59
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005773_0849_XN_84S045W_final.img
+    TO      = ../data/P12_005773_0849_XN_84S045W_final_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] not found in label"
+    File    = main.cpp
+    Line    = 71
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] does not exist in [Object = Root] in
+               file [../data/P12_005773_0849_XN_84S045W_final.img]"
+    File    = PvlContainer.cpp
+    Line    = 84
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:11:14
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005773_0849_XN_84S045W_final.img
+    TO      = ../data/P12_005773_0849_XN_84S045W_final_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] not found in label"
+    File    = main.cpp
+    Line    = 71
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] does not exist in [Object = Root] in
+               file [../data/P12_005773_0849_XN_84S045W_final.img]"
+    File    = PvlContainer.cpp
+    Line    = 84
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:11:26
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005773_0849_XN_84S045W_final.img
+    TO      = ../data/P12_005773_0849_XN_84S045W_final_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] not found in label"
+    File    = main.cpp
+    Line    = 71
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Code    = 1
+    Message = "PVL Keyword [DATA_SET_ID] does not exist in [Object = Root] in
+               file [../data/P12_005773_0849_XN_84S045W_final.img]"
+    File    = PvlContainer.cpp
+    Line    = 84
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:33:47
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005728_0938_XI_86S002W.IMG
+    TO      = ../data/P12_005728_0938_XI_86S002W_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Class   = "I/O ERROR"
+    Code    = 4
+    Message = "Unable to open
+               [/home/brasmussen/anaconda3/envs/isis3/data/base/translations/p-
+               dsImage.trn]"
+    File    = Pvl.cpp
+    Line    = 86
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:37:51
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005728_0938_XI_86S002W.IMG
+    TO      = ../data/P12_005728_0938_XI_86S002W_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Class   = "I/O ERROR"
+    Code    = 4
+    Message = "Unable to open
+               [/home/brasmussen/anaconda3/envs/isis3/data/base/translations/p-
+               dsImage.trn]"
+    File    = Pvl.cpp
+    Line    = 86
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:39:24
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005728_0938_XI_86S002W.IMG
+    TO      = ../data/P12_005728_0938_XI_86S002W_isis.cub
+    FILLGAP = true
+  End_Group
+
+  Group = Error
+    Program = mroctx2isis
+    Class   = "I/O ERROR"
+    Code    = 4
+    Message = "Unable to open
+               [/home/brasmussen/anaconda3/envs/isis3/data/base/translations/p-
+               dsImage.trn]"
+    File    = Pvl.cpp
+    Line    = 86
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:43:36
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005728_0938_XI_86S002W.IMG
+    TO      = ../data/P12_005728_0938_XI_86S002W_isis.cub
+    SUFFIX  = 18
+    FILLGAP = true
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:18.3
+    CpuTime     = 00:00:18.2
+  End_Group
+End_Object
+
+
+Object = spiceinit
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2018-01-11
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:43:54
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Update SPICE data (kernels, pointing, and position) for
+                       a camera cube"
+
+  Group = UserParameters
+    FROM         = ../data/P12_005728_0938_XI_86S002W_isis.cub
+    WEB          = false
+    ATTACH       = TRUE
+    CKSMITHED    = FALSE
+    CKRECON      = TRUE
+    CKPREDICTED  = FALSE
+    CKNADIR      = FALSE
+    SPKSMITHED   = FALSE
+    SPKRECON     = TRUE
+    SPKPREDICTED = FALSE
+    SHAPE        = SYSTEM
+    STARTPAD     = 0.0
+    ENDPAD       = 0.0
+    URL          = https://services.isis.astrogeology.usgs.gov/cgi-bin/spicei-
+                   nit.cgi
+    PORT         = 443
+  End_Group
+
+  Group = Kernels
+    NaifFrameCode             = -74021
+    LeapSecond                = $base/kernels/lsk/naif0012.tls
+    TargetAttitudeShape       = $base/kernels/pck/pck00009.tpc
+    TargetPosition            = ($base/kernels/spk/de430.bsp,
+                                 $base/kernels/spk/mar097.bsp)
+    InstrumentPointing        = ($mro/kernels/ck/mro_sc_psp_071016_071022.bc,
+                                 $mro/kernels/fk/mro_v15.tf)
+    Instrument                = Null
+    SpacecraftClock           = $mro/kernels/sclk/MRO_SCLKSCET.00087.65536.tsc
+    InstrumentPosition        = $mro/kernels/spk/mro_psp5_ssd_mro110c.bsp
+    InstrumentAddendum        = $mro/kernels/iak/mroctxAddendum005.ti
+    ShapeModel                = $base/dems/molaMarsPlanetaryRadius0005.cub
+    InstrumentPositionQuality = Reconstructed
+    InstrumentPointingQuality = Reconstructed
+    CameraVersion             = 1
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:02.6
+    CpuTime     = 00:00:02.2
+  End_Group
+End_Object
+
+
+Object = phocube
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2019-02-15
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T19:43:57
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Create photometric and geometric information bands for
+                       an image cube"
+
+  Group = UserParameters
+    FROM                       = ../data/P12_005728_0938_XI_86S002W_isis.cub
+    TO                         = ../data/P12_005728_0938_XI_86S002W_isis_ddr.-
+                                 cub
+    SOURCE                     = CAMERA
+    DN                         = FALSE
+    PHASE                      = TRUE
+    EMISSION                   = TRUE
+    INCIDENCE                  = TRUE
+    LOCALEMISSION              = FALSE
+    LOCALINCIDENCE             = FALSE
+    LATITUDE                   = TRUE
+    LONGITUDE                  = TRUE
+    PIXELRESOLUTION            = FALSE
+    LINERESOLUTION             = FALSE
+    SAMPLERESOLUTION           = FALSE
+    DETECTORRESOLUTION         = FALSE
+    OBLIQUEDETECTORRESOLUTION  = FALSE
+    NORTHAZIMUTH               = FALSE
+    SUNAZIMUTH                 = FALSE
+    SPACECRAFTAZIMUTH          = FALSE
+    OFFNADIRANGLE              = FALSE
+    SUBSPACECRAFTGROUNDAZIMUTH = FALSE
+    SUBSOLARGROUNDAZIMUTH      = FALSE
+    MORPHOLOGYRANK             = FALSE
+    ALBEDORANK                 = FALSE
+    RADEC                      = FALSE
+    BODYFIXED                  = FALSE
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:19:55.4
+    CpuTime     = 00:20:10.8
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:03:53
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005773_0849_XN_84S045W.IMG
+    TO      = ../data/P12_005773_0849_XN_84S045W_isis.cub
+    SUFFIX  = 18
+    FILLGAP = true
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:08.8
+    CpuTime     = 00:00:09.4
+  End_Group
+End_Object
+
+
+Object = spiceinit
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2018-01-11
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:04:02
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Update SPICE data (kernels, pointing, and position) for
+                       a camera cube"
+
+  Group = UserParameters
+    FROM         = ../data/P12_005773_0849_XN_84S045W_isis.cub
+    WEB          = false
+    ATTACH       = TRUE
+    CKSMITHED    = FALSE
+    CKRECON      = TRUE
+    CKPREDICTED  = FALSE
+    CKNADIR      = FALSE
+    SPKSMITHED   = FALSE
+    SPKRECON     = TRUE
+    SPKPREDICTED = FALSE
+    SHAPE        = SYSTEM
+    STARTPAD     = 0.0
+    ENDPAD       = 0.0
+    URL          = https://services.isis.astrogeology.usgs.gov/cgi-bin/spicei-
+                   nit.cgi
+    PORT         = 443
+  End_Group
+
+  Group = Kernels
+    NaifFrameCode             = -74021
+    LeapSecond                = $base/kernels/lsk/naif0012.tls
+    TargetAttitudeShape       = $base/kernels/pck/pck00009.tpc
+    TargetPosition            = ($base/kernels/spk/de430.bsp,
+                                 $base/kernels/spk/mar097.bsp)
+    InstrumentPointing        = ($mro/kernels/ck/mro_sc_psp_071016_071022.bc,
+                                 $mro/kernels/fk/mro_v15.tf)
+    Instrument                = Null
+    SpacecraftClock           = $mro/kernels/sclk/MRO_SCLKSCET.00087.65536.tsc
+    InstrumentPosition        = $mro/kernels/spk/mro_psp5_ssd_mro110c.bsp
+    InstrumentAddendum        = $mro/kernels/iak/mroctxAddendum005.ti
+    ShapeModel                = $base/dems/molaMarsPlanetaryRadius0005.cub
+    InstrumentPositionQuality = Reconstructed
+    InstrumentPointingQuality = Reconstructed
+    CameraVersion             = 1
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:01.1
+    CpuTime     = 00:00:01.7
+  End_Group
+End_Object
+
+
+Object = phocube
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2019-02-15
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:04:03
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Create photometric and geometric information bands for
+                       an image cube"
+
+  Group = UserParameters
+    FROM                       = ../data/P12_005773_0849_XN_84S045W_isis.cub
+    TO                         = ../data/P12_005773_0849_XN_84S045W_isis_ddr.-
+                                 cub
+    SOURCE                     = CAMERA
+    DN                         = FALSE
+    PHASE                      = TRUE
+    EMISSION                   = TRUE
+    INCIDENCE                  = TRUE
+    LOCALEMISSION              = FALSE
+    LOCALINCIDENCE             = FALSE
+    LATITUDE                   = TRUE
+    LONGITUDE                  = TRUE
+    PIXELRESOLUTION            = FALSE
+    LINERESOLUTION             = FALSE
+    SAMPLERESOLUTION           = FALSE
+    DETECTORRESOLUTION         = FALSE
+    OBLIQUEDETECTORRESOLUTION  = FALSE
+    NORTHAZIMUTH               = FALSE
+    SUNAZIMUTH                 = FALSE
+    SPACECRAFTAZIMUTH          = FALSE
+    OFFNADIRANGLE              = FALSE
+    SUBSPACECRAFTGROUNDAZIMUTH = FALSE
+    SUBSOLARGROUNDAZIMUTH      = FALSE
+    MORPHOLOGYRANK             = FALSE
+    ALBEDORANK                 = FALSE
+    RADEC                      = FALSE
+    BODYFIXED                  = FALSE
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:16:06.5
+    CpuTime     = 00:16:18.4
+  End_Group
+End_Object
+
+
+Object = mroctx2isis
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2016-06-10
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:20:10
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Import an MRO CTX image as an Isis cube"
+
+  Group = UserParameters
+    FROM    = ../data/P12_005862_0934_XI_86S057W.IMG
+    TO      = ../data/P12_005862_0934_XI_86S057W_isis.cub
+    SUFFIX  = 18
+    FILLGAP = true
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:13.6
+    CpuTime     = 00:00:13.0
+  End_Group
+End_Object
+
+
+Object = spiceinit
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2018-01-11
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:20:24
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Update SPICE data (kernels, pointing, and position) for
+                       a camera cube"
+
+  Group = UserParameters
+    FROM         = ../data/P12_005862_0934_XI_86S057W_isis.cub
+    WEB          = false
+    ATTACH       = TRUE
+    CKSMITHED    = FALSE
+    CKRECON      = TRUE
+    CKPREDICTED  = FALSE
+    CKNADIR      = FALSE
+    SPKSMITHED   = FALSE
+    SPKRECON     = TRUE
+    SPKPREDICTED = FALSE
+    SHAPE        = SYSTEM
+    STARTPAD     = 0.0
+    ENDPAD       = 0.0
+    URL          = https://services.isis.astrogeology.usgs.gov/cgi-bin/spicei-
+                   nit.cgi
+    PORT         = 443
+  End_Group
+
+  Group = Kernels
+    NaifFrameCode             = -74021
+    LeapSecond                = $base/kernels/lsk/naif0012.tls
+    TargetAttitudeShape       = $base/kernels/pck/pck00009.tpc
+    TargetPosition            = ($base/kernels/spk/de430.bsp,
+                                 $base/kernels/spk/mar097.bsp)
+    InstrumentPointing        = ($mro/kernels/ck/mro_sc_psp_071023_071029.bc,
+                                 $mro/kernels/fk/mro_v15.tf)
+    Instrument                = Null
+    SpacecraftClock           = $mro/kernels/sclk/MRO_SCLKSCET.00087.65536.tsc
+    InstrumentPosition        = $mro/kernels/spk/mro_psp5_ssd_mro110c.bsp
+    InstrumentAddendum        = $mro/kernels/iak/mroctxAddendum005.ti
+    ShapeModel                = $base/dems/molaMarsPlanetaryRadius0005.cub
+    InstrumentPositionQuality = Reconstructed
+    InstrumentPointingQuality = Reconstructed
+    CameraVersion             = 1
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:01.2
+    CpuTime     = 00:00:01.8
+  End_Group
+End_Object
+
+
+Object = phocube
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2019-02-15
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:20:25
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Create photometric and geometric information bands for
+                       an image cube"
+
+  Group = UserParameters
+    FROM                       = ../data/P12_005862_0934_XI_86S057W_isis.cub
+    TO                         = ../data/P12_005862_0934_XI_86S057W_isis_ddr.-
+                                 cub
+    SOURCE                     = CAMERA
+    DN                         = FALSE
+    PHASE                      = TRUE
+    EMISSION                   = TRUE
+    INCIDENCE                  = TRUE
+    LOCALEMISSION              = FALSE
+    LOCALINCIDENCE             = FALSE
+    LATITUDE                   = TRUE
+    LONGITUDE                  = TRUE
+    PIXELRESOLUTION            = FALSE
+    LINERESOLUTION             = FALSE
+    SAMPLERESOLUTION           = FALSE
+    DETECTORRESOLUTION         = FALSE
+    OBLIQUEDETECTORRESOLUTION  = FALSE
+    NORTHAZIMUTH               = FALSE
+    SUNAZIMUTH                 = FALSE
+    SPACECRAFTAZIMUTH          = FALSE
+    OFFNADIRANGLE              = FALSE
+    SUBSPACECRAFTGROUNDAZIMUTH = FALSE
+    SUBSOLARGROUNDAZIMUTH      = FALSE
+    MORPHOLOGYRANK             = FALSE
+    ALBEDORANK                 = FALSE
+    RADEC                      = FALSE
+    BODYFIXED                  = FALSE
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:20:04.1
+    CpuTime     = 00:20:21.3
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:42:20
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005728_0938_XI_86S002W_isis_ddr.cub
+    TO         = ../data/P12_005728_0938_XI_86S002W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:33.3
+    CpuTime     = 00:00:27.7
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:42:54
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005773_0849_XN_84S045W_isis_ddr.cub
+    TO         = ../data/P12_005773_0849_XN_84S045W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:26.2
+    CpuTime     = 00:00:20.6
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:43:20
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005862_0934_XI_86S057W_isis_ddr.cub
+    TO         = ../data/P12_005862_0934_XI_86S057W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:30.6
+    CpuTime     = 00:00:23.6
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:57:02
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005728_0938_XI_86S002W_isis_ddr.cub
+    TO         = ../data/P12_005728_0938_XI_86S002W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:25.7
+    CpuTime     = 00:00:17.4
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:57:28
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005773_0849_XN_84S045W_isis_ddr.cub
+    TO         = ../data/P12_005773_0849_XN_84S045W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:21.1
+    CpuTime     = 00:00:13.8
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-05-31T20:57:49
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005862_0934_XI_86S057W_isis_ddr.cub
+    TO         = ../data/P12_005862_0934_XI_86S057W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:26.8
+    CpuTime     = 00:00:17.5
+  End_Group
+End_Object
+
+
+Object = reduce
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2013-11-06
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T10:47:03
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Reduce the pixel dimensions of an image"
+
+  Group = UserParameters
+    FROM         = ../data/P12_005728_0938_XI_86S002W_isis.cub
+    TO           = ../data/P12_005728_0938_XI_86S002W_isis_ds.cub
+    ALGORITHM    = average
+    MODE         = SCALE
+    SSCALE       = 8
+    LSCALE       = 8
+    VALIDPER     = 50
+    VPER_REPLACE = NULL
+  End_Group
+
+  Group = Results
+    InputLines      = 52224
+    InputSamples    = 5000
+    StartingLine    = 1
+    StartingSample  = 1
+    EndingLine      = 52224
+    EndingSample    = 5000
+    LineIncrement   = 8.0
+    SampleIncrement = 8.0
+    OutputLines     = 6528
+    OutputSamples   = 625
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:01.9
+    CpuTime     = 00:00:01.4
+  End_Group
+End_Object
+
+
+Object = phocube
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2019-02-15
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T10:47:05
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Create photometric and geometric information bands for
+                       an image cube"
+
+  Group = UserParameters
+    FROM                       = ../data/P12_005728_0938_XI_86S002W_isis_ds.c-
+                                 ub
+    TO                         = ../data/P12_005728_0938_XI_86S002W_isis_ddr.-
+                                 cub
+    SOURCE                     = CAMERA
+    DN                         = FALSE
+    PHASE                      = yes
+    EMISSION                   = no
+    INCIDENCE                  = no
+    LOCALEMISSION              = yes
+    LOCALINCIDENCE             = yes
+    LATITUDE                   = no
+    LONGITUDE                  = no
+    PIXELRESOLUTION            = FALSE
+    LINERESOLUTION             = FALSE
+    SAMPLERESOLUTION           = FALSE
+    DETECTORRESOLUTION         = FALSE
+    OBLIQUEDETECTORRESOLUTION  = FALSE
+    NORTHAZIMUTH               = FALSE
+    SUNAZIMUTH                 = yes
+    SPACECRAFTAZIMUTH          = yes
+    OFFNADIRANGLE              = yes
+    SUBSPACECRAFTGROUNDAZIMUTH = yes
+    SUBSOLARGROUNDAZIMUTH      = yes
+    MORPHOLOGYRANK             = FALSE
+    ALBEDORANK                 = FALSE
+    RADEC                      = FALSE
+    BODYFIXED                  = FALSE
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:06:16.0
+    CpuTime     = 00:06:16.4
+  End_Group
+End_Object
+
+
+Object = reduce
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2013-11-06
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T10:53:21
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Reduce the pixel dimensions of an image"
+
+  Group = UserParameters
+    FROM         = ../data/P12_005773_0849_XN_84S045W_isis.cub
+    TO           = ../data/P12_005773_0849_XN_84S045W_isis_ds.cub
+    ALGORITHM    = average
+    MODE         = SCALE
+    SSCALE       = 8
+    LSCALE       = 8
+    VALIDPER     = 50
+    VPER_REPLACE = NULL
+  End_Group
+
+  Group = Results
+    InputLines      = 40960
+    InputSamples    = 5000
+    StartingLine    = 1
+    StartingSample  = 1
+    EndingLine      = 40960
+    EndingSample    = 5000
+    LineIncrement   = 8.0
+    SampleIncrement = 8.0
+    OutputLines     = 5120
+    OutputSamples   = 625
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:01.5
+    CpuTime     = 00:00:01.6
+  End_Group
+End_Object
+
+
+Object = phocube
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2019-02-15
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T10:53:23
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Create photometric and geometric information bands for
+                       an image cube"
+
+  Group = UserParameters
+    FROM                       = ../data/P12_005773_0849_XN_84S045W_isis_ds.c-
+                                 ub
+    TO                         = ../data/P12_005773_0849_XN_84S045W_isis_ddr.-
+                                 cub
+    SOURCE                     = CAMERA
+    DN                         = FALSE
+    PHASE                      = yes
+    EMISSION                   = no
+    INCIDENCE                  = no
+    LOCALEMISSION              = yes
+    LOCALINCIDENCE             = yes
+    LATITUDE                   = no
+    LONGITUDE                  = no
+    PIXELRESOLUTION            = FALSE
+    LINERESOLUTION             = FALSE
+    SAMPLERESOLUTION           = FALSE
+    DETECTORRESOLUTION         = FALSE
+    OBLIQUEDETECTORRESOLUTION  = FALSE
+    NORTHAZIMUTH               = FALSE
+    SUNAZIMUTH                 = yes
+    SPACECRAFTAZIMUTH          = yes
+    OFFNADIRANGLE              = yes
+    SUBSPACECRAFTGROUNDAZIMUTH = yes
+    SUBSOLARGROUNDAZIMUTH      = yes
+    MORPHOLOGYRANK             = FALSE
+    ALBEDORANK                 = FALSE
+    RADEC                      = FALSE
+    BODYFIXED                  = FALSE
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:04:43.0
+    CpuTime     = 00:04:42.7
+  End_Group
+End_Object
+
+
+Object = reduce
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2013-11-06
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T10:58:06
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Reduce the pixel dimensions of an image"
+
+  Group = UserParameters
+    FROM         = ../data/P12_005862_0934_XI_86S057W_isis.cub
+    TO           = ../data/P12_005862_0934_XI_86S057W_isis_ds.cub
+    ALGORITHM    = average
+    MODE         = SCALE
+    SSCALE       = 8
+    LSCALE       = 8
+    VALIDPER     = 50
+    VPER_REPLACE = NULL
+  End_Group
+
+  Group = Results
+    InputLines      = 52224
+    InputSamples    = 5000
+    StartingLine    = 1
+    StartingSample  = 1
+    EndingLine      = 52224
+    EndingSample    = 5000
+    LineIncrement   = 8.0
+    SampleIncrement = 8.0
+    OutputLines     = 6528
+    OutputSamples   = 625
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:01.9
+    CpuTime     = 00:00:02.0
+  End_Group
+End_Object
+
+
+Object = phocube
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2019-02-15
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T10:58:08
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Create photometric and geometric information bands for
+                       an image cube"
+
+  Group = UserParameters
+    FROM                       = ../data/P12_005862_0934_XI_86S057W_isis_ds.c-
+                                 ub
+    TO                         = ../data/P12_005862_0934_XI_86S057W_isis_ddr.-
+                                 cub
+    SOURCE                     = CAMERA
+    DN                         = FALSE
+    PHASE                      = yes
+    EMISSION                   = no
+    INCIDENCE                  = no
+    LOCALEMISSION              = yes
+    LOCALINCIDENCE             = yes
+    LATITUDE                   = no
+    LONGITUDE                  = no
+    PIXELRESOLUTION            = FALSE
+    LINERESOLUTION             = FALSE
+    SAMPLERESOLUTION           = FALSE
+    DETECTORRESOLUTION         = FALSE
+    OBLIQUEDETECTORRESOLUTION  = FALSE
+    NORTHAZIMUTH               = FALSE
+    SUNAZIMUTH                 = yes
+    SPACECRAFTAZIMUTH          = yes
+    OFFNADIRANGLE              = yes
+    SUBSPACECRAFTGROUNDAZIMUTH = yes
+    SUBSOLARGROUNDAZIMUTH      = yes
+    MORPHOLOGYRANK             = FALSE
+    ALBEDORANK                 = FALSE
+    RADEC                      = FALSE
+    BODYFIXED                  = FALSE
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:06:20.2
+    CpuTime     = 00:06:20.5
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T11:04:29
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005728_0938_XI_86S002W_isis_ddr.cub
+    TO         = ../data/P12_005728_0938_XI_86S002W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.9
+    CpuTime     = 00:00:01.3
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T11:04:30
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005773_0849_XN_84S045W_isis_ddr.cub
+    TO         = ../data/P12_005773_0849_XN_84S045W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.8
+    CpuTime     = 00:00:01.3
+  End_Group
+End_Object
+
+
+Object = isis2pds
+  IsisVersion       = "3.9.1  | 2019-11-19"
+  ProgramVersion    = 2017-11-26
+  ProgramPath       = /home/brasmussen/anaconda3/envs/isis3/bin
+  ExecutionDateTime = 2020-06-01T11:04:31
+  HostName          = Unknown
+  UserName          = Unknown
+  Description       = "Convert from ISIS3 cube to PDS 3 or PDS 4 format"
+
+  Group = UserParameters
+    FROM       = ../data/P12_005862_0934_XI_86S057W_isis_ddr.cub
+    TO         = ../data/P12_005862_0934_XI_86S057W_isis_ddr_pds.img
+    PDSVERSION = PDS3
+    LABTYPE    = STREAM
+    BITTYPE    = 32BIT
+    CHECKSUM   = false
+    ENDIAN     = LSB
+  End_Group
+
+  Group = "DNs Used"
+    Null     = -3.4028226550889e+38
+    LRS      = -3.402822857913e+38
+    LIS      = -3.4028230607371e+38
+    HIS      = -3.40282326356119e+38
+    HRS      = -3.40282346638529e+38
+    ValidMin = -1.79769313486232e+308
+    ValidMax = 1.79769313486232e+308
+  End_Group
+
+  Group = Accounting
+    ConnectTime = 00:00:00.9
+    CpuTime     = 00:00:01.5
+  End_Group
+End_Object
+
+

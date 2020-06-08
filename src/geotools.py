@@ -31,7 +31,8 @@ def grab_raster_values(filename, points=False,
         else:
             extract = data[:, row, col]
         outvals.append(extract)
-
+    del rastds
+    del ds
     return(outvals)
 
 def sample_im_pixels(number, geoimagenm):
